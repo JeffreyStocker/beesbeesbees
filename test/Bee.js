@@ -17,7 +17,7 @@ describe('Bee class functionality', function() {
   });
 
   /*  Inherited from superclass  */
-
+  // debugger;
   it('should have a `food` property that is inherited from grub', function() {
     expect(bee.food).to.equal('jelly');
   });
